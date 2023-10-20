@@ -78,7 +78,7 @@ int lomuto_partition(int *array, ssize_t n1, ssize_t n2, size_t size)
  *
  * Return: Nothing.
  */
-void swap(int *array, ssize_t f1, ssize_t f2)
+void swap(int *array,ssize_t f1, ssize_t f2)
 {
 	int tmp;
 
